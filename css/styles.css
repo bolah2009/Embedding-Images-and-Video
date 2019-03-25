@@ -7,6 +7,39 @@ main {
   margin: 2% 3%;
 }
 
+nav {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-around;
+}
+
+form {
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: grey;
+}
+
+footer {
+  text-align: center;
+}
+
 .player-video {
   position: relative;
 	padding-bottom: 14.0625%; /* 16:9 */
@@ -39,12 +72,16 @@ main {
 
 .player-video {
     min-width: 560px;
-    min-height: 315px;  
+    min-height: 315px;
 }
 
 .player{
     padding: 20px 40px;
     width: 60%;
+}
+
+.video-title {
+  font-size: 1.2rem;
 }
 
 .up-next {
@@ -61,6 +98,5 @@ main {
 
 .next-card-details p {
     margin:0px;
-    background-color: green;
     margin-left: 8px;
 }
