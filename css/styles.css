@@ -1,0 +1,30 @@
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.player{
+    width: 50%;
+    background-color: green;
+}
+
+.details {
+    width: 50%;
+}
+
+.up-next {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.next-card {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 8px;
+}
+
+.next-card-details p {
+    margin:0px;
+    background-color: green;
+    margin-left: 8px;
+}
