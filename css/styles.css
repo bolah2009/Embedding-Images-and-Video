@@ -1,15 +1,42 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+main {
+  margin: 2% 3%;
+}
+
+iframe {
+
+}
+
 .flex-container {
     display: flex;
     flex-flow: row wrap;
 }
 
+.fa-youtube {
+  color: red;
+}
+
+.logo-title {
+  color: black;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.player-video {
+
+}
+
 .player{
-    width: 50%;
+    padding: 20px 40px;
+    width: 60%;
     background-color: green;
 }
 
 .details {
-    width: 50%;
 }
 
 .up-next {
