@@ -7,5 +7,6 @@ This is the first project of the Main HTML/CSS curriculum at [Microverse](https:
 #### [Assignment link](https://www.theodinproject.com/courses/html5-and-css3/lessons/embedding-images-and-video)
 
 #### Authors
+
 * [@TorresChief](https://github.com/TorresChief)
 * [@bolah2009](https://github.com/bolah2009/)
