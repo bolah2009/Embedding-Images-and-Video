@@ -1,39 +1,49 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
-
+iframe {
+  border: 0px;
+}
 main {
   margin: 2% 3%;
 }
 
-nav {
-  align-items: baseline;
-  display: flex;
-  justify-content: space-around;
+ul a i {
+  font-size: 1.6rem;
 }
-
-form {
-
-}
-
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background-color: white;
 }
 
 li {
-  float: right;
+  float: left;
 }
 
 li a {
   display: block;
+  color: grey;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  color: grey;
+}
+
+li a:hover {
+  background-color: grey;
+  color: white;
+}
+
+li:nth-child(n + 4) {
+  float: right;
+}
+
+form {
+  margin-left: 40px;
+  height: 100%;
 }
 
 footer {
@@ -42,22 +52,22 @@ footer {
 
 .player-video {
   position: relative;
-	padding-bottom: 14.0625%; /* 16:9 */
-	padding-top: 25px;
-	height: 0;
+  padding-bottom: 14.0625%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
 }
 
 .player-video iframe {
   position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .flex-container {
-    display: flex;
-    flex-flow: row wrap;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .fa-youtube {
@@ -71,13 +81,13 @@ footer {
 }
 
 .player-video {
-    min-width: 560px;
-    min-height: 315px;
+  min-width: 560px;
+  min-height: 315px;
 }
 
-.player{
-    padding: 20px 40px;
-    width: 60%;
+.player {
+  padding: 20px 40px;
+  width: 60%;
 }
 
 .video-title {
@@ -85,18 +95,18 @@ footer {
 }
 
 .up-next {
-    display: flex;
-    flex-flow: column nowrap;
-    padding: 0px 40px;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 0px 40px;
 }
 
 .next-card {
-    display: flex;
-    flex-flow: row nowrap;
-    margin-top: 8px;
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 8px;
 }
 
 .next-card-details p {
-    margin:0px;
-    margin-left: 8px;
+  margin: 0px;
+  margin-left: 8px;
 }
