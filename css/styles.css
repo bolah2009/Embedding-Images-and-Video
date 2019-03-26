@@ -8,6 +8,14 @@ iframe {
 main {
   margin: 2% 3%;
 }
+form {
+  display: flex;
+  padding-top: 10px;
+}
+
+input[type="text"] {
+  width: 15rem;
+}
 
 ul a i {
   font-size: 1.6rem;
